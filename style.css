@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    height: 400px;
+    flex-direction: column;
+    padding: 1em;
+    background-color:aquamarine    
+    }
+#main{
+    display: flex;
+    flex: 1;
+}
+nav, aside{    
+}
+header, footer{    
+    margin: 1px;
+}
+nav, aside, header, footer{
+    flex: 1;
+    padding: 1rem;
+    margin: 1px;
+}
+body{
+    background-image: url("inagen\ background\ \(moto\).jpg");
+}
+header{
+    
+}
+@media (min-with 600px){
+
+}
+i{
+    color: aliceblue;
+}
+li{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+aside{
+    align-items:center;
+}
